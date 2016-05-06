@@ -15,5 +15,7 @@ window.onload = function () {
 		}, 5500);
 	}, false);
 
+document.getElementsByClassName('play')[0].onclick=function(){document.getElementsByTagName('audio')[0].play()}
+
 
 };
